@@ -13,6 +13,7 @@
 # Install
 ```
 $ npm install
+$ npm install -g jest
 ```
 
 # Test and Run
