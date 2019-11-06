@@ -1,6 +1,6 @@
 # Scrum Project
-This project created from 'express --view=ejs'.
-So, We build it to practice about Scrum Process.
+#### This project created from 'express --view=ejs'.
+#### So, We build it to practice about Scrum Process.
 
 # Prerequisite
 ### Windows, OSX or Linux
