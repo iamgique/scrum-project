@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/semantic.min.css' />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src='/javascripts/jquery.js'></script>
+  </head>
+  <body>
+    <section class="strips">
+      <% include partials/fizzbuzz %>
+      <% include partials/maxchar %>
+      <% include partials/palindrome %>
+      <% include partials/reverseint %>
+      <% include partials/vowels %>
+      <a href="/"><i class="fa fa-close strip__close"></i></a>
+    </section>
+  </body>
+  <script src='/javascripts/script.js'></script>
+</html>

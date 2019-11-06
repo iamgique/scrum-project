@@ -1,0 +1,33 @@
+<article class="strips__strip <%= messages.vowels %>">
+    <div class="strip__content">
+        <h1 class="strip__title" data-name="Amet">Vowels</h1>
+        <div class="strip__inner-text">
+        <h2>Vowels</h2>
+        <p>Please input the character that you want.</p>
+        
+            <div class="ui container">
+                <form action="/vowels" method="post" name="form1">
+                <div class="ui segment">
+                    <div class="ui form">
+                        <div class="field">
+                        <input placeholder="Please input number" type="text" name="value" id="value" value="<%= value %>">
+                        </div>
+                    <input class="ui submit button" type="submit" value="Vowels" />
+                    </div>
+                </div>
+                </form>
+
+                <% if (messages.success) { %>
+                <div class="ui success message">
+                    <div class="header">Success</div>
+                </div>
+                <div class="ui success message" style="max-height: 300px; overflow-x: scroll;">
+                    <h2><%= messages.success %></h2>
+                </div>
+                <% } %>
+                <% include error %>
+            </div>
+
+        </div>
+    </div>
+</article>

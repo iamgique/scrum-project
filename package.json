@@ -1,0 +1,23 @@
+{
+  "name": "scrum-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-flash": "0.0.2",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
