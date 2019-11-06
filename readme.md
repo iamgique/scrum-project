@@ -1,4 +1,7 @@
 # Scrum Project
+
+![Preview Image](https://cdn-images-1.medium.com/max/1600/1*SOgNocGZavfyGINpXel_Nw.gif)
+
 #### This project created from 'express --view=ejs'.
 #### So, We build it to practice about Scrum Process.
 
