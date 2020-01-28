@@ -14,7 +14,7 @@
 
 function fizzBuzz(n) {
     const resp = []
-    //resp = [{num: x, val, y}]
+    //resp = [{num: x, val: y}]
     return resp
 }
 
