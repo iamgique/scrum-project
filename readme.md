@@ -19,9 +19,14 @@ $ npm install
 $ npm install -g jest
 ```
 
-# Test and Run
+# Run Test
 ```
-$ jest
+$ npm run test
+$ npm run test:watch # watch mode
+```
+
+#  Run Project
+```
 $ npm start
 ```
 
