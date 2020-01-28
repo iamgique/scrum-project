@@ -25,6 +25,11 @@ $ npm run test
 $ npm run test:watch # watch mode
 ```
 
+# Run in Dev Mode (auto restart)
+```
+$ npm run dev
+```
+
 #  Run Project
 ```
 $ npm start
