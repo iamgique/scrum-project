@@ -25,6 +25,14 @@ $ npm run test
 $ npm run test:watch # watch mode
 ```
 
+# Run jest for Test
+```
+jest fizzbuzz/test.js --watch
+jest palindrome/test.js --watch
+jest reverseint/test.js --watch
+jest vowels/test.js --watch
+```
+
 # Run in Dev Mode (auto restart)
 ```
 $ npm run dev
